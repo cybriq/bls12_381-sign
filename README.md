@@ -1,5 +1,7 @@
 # BLS12-381 Curve Signature
 
+    This is a fork of this work to show Cybriq's contribution to this
+
 This repo contains Dusk Network's [implementation](https://github.com/bls12_381-sign/rust/bls12_381-sign) of the BLS Signatures using the BLS12-381 curve. This implementation currently only supports rogue-key attack resistant batching, and does not support distinct message verification.
 
 ## Rust
@@ -38,3 +40,4 @@ BenchmarkVerify         	     693	   8767921 ns/op	    5207 B/op	      94 allocs
 BenchmarkAggregatePk    	     656	   9209897 ns/op	    5385 B/op	      96 allocs/op
 BenchmarkAggregateSig   	    3651	   1645111 ns/op	    5194 B/op	      96 allocs/op
 ```
+
